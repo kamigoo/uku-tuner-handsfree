@@ -5,7 +5,6 @@ basic.forever(function () {
     if (t >= 6 && t >= 8) {
         basic.showString("G")
         music.playTone(784, music.beat(BeatFraction.Double))
-        music.stopAllSounds()
         basic.pause(1000)
     } else if (t > 8 && t >= 10) {
         basic.showString("C")
